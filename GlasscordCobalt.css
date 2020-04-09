@@ -1,19 +1,21 @@
 /*
-   Copyright 2020 AryToNeX
+	This is a theme for Glasscord
+	https://github.com/AryToNeX/Glasscord
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
+	This has only been tested with Enhanced Discord on Linux & Windows 10
+	https://github.com/joe27g/EnhancedDiscord
 
-       http://www.apache.org/licenses/LICENSE-2.0
+	Enable Nightmode for theme
 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+
+	@name GlasscordCobalt
+	@author ExtosNex
+	@description A Solarized based theme
+	@source https://github.com/ExtosNex/Glasscord-Cobalt
 */
- 
+
+
+
 :root{
 	/* Here you can define properties for use with Glasscord. */
 	
@@ -347,3 +349,21 @@
 .scrollableContainer-2NUZem {
 	background-color: var(--background-chatbox);
 }
+
+
+
+/*
+   Copyright 2020 AryToNeX
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+*/
