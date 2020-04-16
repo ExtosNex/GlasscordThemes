@@ -7,25 +7,16 @@
  */
 
 :root {
-    /* Here you can define properties for use with Glasscord. */
-    /* Global properties */
-    /* Main switch: disabling this will disable Glasscord. */
     --glasscord-enable: true;
-    /* Tint: it's basically a global background color. */
-    --glasscord-tint: rgba(0, 0, 0, 0);
-    /* Windows-specific properties */
-    /* Blur mode. Available types: acrylic (strong blur), blurbehind (light blur), transparent */
+    
     --glasscord-win-blur: acrylic;
-    /* Acrylic mode makes some computers pretty unresponsive when resizing/moving the window.
-	   Should we work around it? */
-    --glasscord-win-performance-mode: true;
-    /* macOS-specific properties */
-    /* Vibrancy mode */
+
+    --glasscord-win-performance-mode: false;
+
     --glasscord-macos-vibrancy: hud;
-    /* Linux-specific properties */
-    /* Should Glasscord send a request to your window compositor to blur behind Discord's window? */
-    /* It currently supports KWin only */
+
     --glasscord-linux-blur: true;
+
     --main-color: #2780e6;
     --hover-color: #1e63b3;
     --success-color: #43b581;
@@ -9538,4 +9529,25 @@ textarea::-webkit-scrollbar {
 
 .scrollableContainer-2NUZem {
     background-color: var(--background-chatbox);
+}
+.wrapper-2ZbzR9.theme-light{
+    background-color: rgba(0, 0, 0, 0);
+    border: var(--main-color) 1px solid;
+    backdrop-filter: blur(30px);
+}
+.header-3ZP1MY{
+    color: #FFF;
+}
+
+.theme-light .action-1lSjCi{
+    background: rgba(0, 0, 0, 0);
+    border: 0px;
+    
+}
+
+.theme-light .input-UJ9Tr3 {
+    color: #fff;
+}
+.colorStandard-2KCXvj{
+    color: #fff;
 }
